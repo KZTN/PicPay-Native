@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../images/avatar.png';
+import avatar from '../../images/avatar.jpg';
 import FeatherIcons from 'react-native-vector-icons/Feather';
 import MaterialComunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import AntDesignIcons from 'react-native-vector-icons/AntDesign';
@@ -40,11 +40,11 @@ export default function Activities() {
         <CardHeader>
           <Avatar source={avatar} />
           <Description>
-            <Bold>você</Bold> pagou a <Bold>Matheus Silva</Bold>
+            <Bold>você</Bold> pagou a <Bold>@KaioCésar</Bold>
           </Description>
         </CardHeader>
         <CardBody>
-          <UserName>Matheus Silva</UserName>
+          <UserName>KZTN</UserName>
         </CardBody>
         <CardFooter>
           <Details>

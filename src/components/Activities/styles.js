@@ -40,7 +40,11 @@ export const CardHeader = styled.View`
   align-items: center;
 `;
 
-export const Avatar = styled.Image``;
+export const Avatar = styled.Image`
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+`;
 
 export const Description = styled.Text`
   color: #fff;
